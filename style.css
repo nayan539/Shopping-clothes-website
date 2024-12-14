@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica,sans-serif;
+}
+
+nav{
+    /* border: 1px solid red;    */
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #f1f1f0;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo h1{
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 40px;
+}
+ul li{
+    list-style-type: none;
+}
+select{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+.nav_last{
+    margin-right: 20px;
+}
+.bi-search{
+    margin-right: 10px;
+}
+.hr{
+    /* border: 1px solid black; */
+    border-top:1px solid grey;
+}
+/* New Collection */
+.new-collection{
+    background-color: #f1f1f0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.new-collection-title{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.new-collection-title h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.new-collection-title p{
+    color: grey;
+}
+.new-collection-imgs{
+    margin-top: 40px;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+}
+.col_img{
+    width: 300px;
+}
+.col_content{
+    width: 300px;
+}
+.col_content_title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.col_con_text{
+    margin-bottom: 15px;
+}
+.col_con_btn{
+    margin-top: 15px;
+}
+.new_col_hr{
+    width: 130px;
+    border-top: 1px solid grey;
+}
+/* Services */
+.services{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.service{
+    text-align: center;
+    width: 270px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.service h1{
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.service p{
+    color: grey;
+    /* padding-top: 10px; */
+}
+.service_icon{
+    font-size: 30px;
+    color: rgb(82, 78, 78);
+}
+/* 3 Categories */
+.category_three{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cat_thr_img{
+    width: 350px;
+}
+.cat_thr_box p{
+    color: rgb(85, 84, 84);
+}
+
+/* NEW Arrivals */
+.newarrivals{
+    margin: 100px 120px 0 120px;
+}
+.top_arr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.top_arr h1{
+    font-weight: 100;
+}
+.top_arr_hr{
+    border-top: 1px solid darkgrey;
+}
+.bottom_arr{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+.btm_arr_img{
+    width: 355px;
+}
+.btm_arr_bx h3{
+    font-weight: 100;
+    margin: 10px 0 10px 0;
+}
+
+/* Winter Collection */
+.win_col{
+    padding: 120px 120px 0px 120px;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f0;
+}
+.win_img{
+    width: 560px;
+}
+.win_right{
+    padding: 80px;
+}
+.win_right h1{
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.win_p{
+    color: darkgrey;
+    line-height: 30px;
+}
+.win_right button{
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* Classic Collection */
+.class_coll{
+    height: 800px;
+    background-image: url("https://themewagon.github.io/kaira/images/video-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* TITLES */
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f0;
+    padding: 100px 0 100px 0;
+}
+.titles p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.titles h2{
+    width: 650px;
+    font-weight: 100;
+    color: grey;
+    font-size: 40px;
+    text-align: center;
+}
+/* BLOG */
+.blog{
+    margin: 0 120px 0 120px;
+}
+.blog_post_btm{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.blog_post_bx{
+    width: 350px;
+}
+.blog_post_img{
+    width: 350px;
+}
+.blog_post_text{
+    margin-top: 15px;
+}
+.blog_post_text p{
+color: grey;
+line-height: 20px;
+}
+.blog_post_text h2{
+    margin: 15px 0 15px 0;
+    font-weight: 100;
+    font-size: 23px;
+}
+/* COMAPNIES */
+.companies{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+    gap: 70px;
+}
+/* NEWS LETTER */
+.newslt_tp{
+    background-image: url("https://themewagon.github.io/kaira/images/pattern-bg.png");
+}
+.newslet_imges{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.newslt_img{
+    width: 100%;
+    max-width: 16%;
+    height: auto;
+    /* border: 1px solid yellow; */
+
+}
+.newslt_tp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+.newslt_tp h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+.newslt_input{
+    width: 700px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.in_btn{
+    background-color: #212529;
+    color: white;
+}
+.newslt_btm{
+    position: relative;
+}
+.follow{
+    width: 300px;
+    height: 35px;
+    padding: 6px 40px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -3; */
+    position: absolute;
+    top: 20px;
+}
+.follow{
+    margin: 0 auto;
+}
+
+/* Footer */
+.ft_row{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.column{
+    width: 350px;
+}
+.ch_col{
+    display: flex;
+    flex-direction: column;
+}
+.ft_title{
+    margin-bottom: 20px;
+}
+.ch_col a{
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+}
+.ch_col p{
+    line-height: 25px;
+}
+.ft_grey{
+    color: grey;
+}
+.ft_grey span{
+    color: black;
+}
+.ft_hr{
+    border-top: 1px solid grey;
+}
+/* footer bottom */
+.ft_btm{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.ft_btm p{
+    color: grey;
+}
+.ft_btm_fst{
+    display: flex;
+    align-items: center;
+}
+.ft_btm_scnd{
+    display: flex;
+    flex-direction: column;
+}
+.ft_btm_scnd span{
+    color: black;
+}
